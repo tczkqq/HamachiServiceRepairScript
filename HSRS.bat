@@ -18,7 +18,7 @@ REM  --> Check for permissions
 REM --> If error flag set, we do not have admin.
 if '%errorlevel%' NEQ '0' (
     echo                         ~~~~ Script need administrator privileges... ~~~~
-    echo Runing HSRS as admin
+    echo Trying to run HSRS as admin
     pause
     goto UACPrompt
 ) else ( goto gotAdmin )
