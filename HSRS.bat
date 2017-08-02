@@ -44,7 +44,7 @@ echo {
 sc start Hamachi2Svc
 echo }
 echo                                         ~~~~ Info~~~~
-echo If HSRS isnt help you check our website for help.
-echo http://www.TinyScript.cba.pl/
-echo Created by Tomeczek // TinyScript Team
+echo If HSRS isnt help you, check our project site for help.
+echo https://github.com/Tomeczekqq/Hamachi-Service-Repair-Script
+echo Created by Tomeczek 
 pause
