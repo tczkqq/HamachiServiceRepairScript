@@ -1,5 +1,6 @@
 @echo off
 :: AboutBox
+:-------------------------------------
 cls
 echo                             ~~~~ Hamachi Service Repair Script  ~~~~
 echo Version: 1.0
@@ -36,15 +37,15 @@ if '%errorlevel%' NEQ '0' (
 :gotAdmin
     pushd "%CD%"
     CD /D "%~dp0"
-:--------------------------------------
- ::Script
+::Script
+:-------------------------------------
 echo                             ~~~~ Starting Hamachi2Svc service...~~~~
 echo ::Log
 echo {
 sc start Hamachi2Svc
 echo }
 echo                                         ~~~~ Info~~~~
-echo If HSRS isnt help you, check our project site for help.
+echo If HSRS isnt helping you, check my project site for help.
 echo https://github.com/Tomeczekqq/Hamachi-Service-Repair-Script
 echo Created by Tomeczek 
 pause
