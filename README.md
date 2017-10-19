@@ -2,7 +2,7 @@
 # Hamachi Service Repair Script 
 
 
-Simply and easy to use batch sciprt, that starts 'hamachi2svc' service. 
+Simply and easy to use batch script, that starts 'hamachi2svc' service. 
 
 
 
