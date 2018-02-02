@@ -1,12 +1,14 @@
 @echo off
+
 :: AboutBox
 :-------------------------------------
 cls
 echo                             ~~~~ Hamachi Service Repair Script  ~~~~
-echo Version: 1.0
+echo Version: 1.1
 echo Created by Tomeczekqq
-echo https://github.com/Tomeczekqq/Hamachi-Service-Repair-Script
+echo https://github.com/Tomeczekqq/HamachiServiceRepairScript
 pause
+
 :: AdminRights
 :-------------------------------------
 REM  --> Check for permissions
@@ -37,6 +39,7 @@ if '%errorlevel%' NEQ '0' (
 :gotAdmin
     pushd "%CD%"
     CD /D "%~dp0"
+    
 ::Script
 :-------------------------------------
 echo                             ~~~~ Starting Hamachi2Svc service...~~~~
@@ -45,7 +48,7 @@ echo {
 sc start Hamachi2Svc
 echo }
 echo                                         ~~~~ Info~~~~
-echo If HSRS isnt helping you, check my project site for help.
-echo https://github.com/Tomeczekqq/Hamachi-Service-Repair-Script
+echo If HSRS isnt helping you, check project site for help.
+echo https://github.com/Tomeczekqq/HamachiServiceRepairScript
 echo Created by Tomeczek 
 pause
